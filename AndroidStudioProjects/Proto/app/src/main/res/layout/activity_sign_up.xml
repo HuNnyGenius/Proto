@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="650dp"
+    tools:context="unikl.hunnygenius.proto.SignUp">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="187dp"
+        android:layout_height="55dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Sign Up"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="497dp"
+        app:layout_constraintHorizontal_bias="0.502" />
+
+    <ImageView
+        android:layout_width="430dp"
+        android:layout_height="503dp"
+        android:src="@drawable/cyan"
+        tools:layout_editor_absoluteY="-180dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.9" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="123dp"
+            android:layout_height="117dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ladybug"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="35dp"
+            app:layout_constraintHorizontal_bias="0.501" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="188dp"
+            android:layout_height="42dp"
+            android:text="Sign Up"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.655"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.266" />
+
+    <EditText
+        android:layout_width="245dp"
+        android:layout_height="47dp"
+        android:text="Username"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="245dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" Email"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        tools:layout_editor_absoluteY="367dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.503" />
+
+    <EditText
+        android:layout_width="245dp"
+        android:layout_height="47dp"
+        android:text=" Password"
+        android:drawableLeft="@drawable/ic_visibility_black_24dp"
+        tools:layout_editor_absoluteY="422dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+
+</android.support.constraint.ConstraintLayout>
